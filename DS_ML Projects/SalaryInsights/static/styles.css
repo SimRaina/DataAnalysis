@@ -1,0 +1,48 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+
+div {
+  width:1000px;
+  height:500px;
+  margin: 50px auto;
+  border: 5px solid green;
+}
+
+div p{
+	color: green;
+	text-align: center;
+}
+div button {
+  background-color: green;
+  width: 25%;
+  height: 60px;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px 340px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 8px;
+}
+
+
+div input[type=number] {
+  width: 25%;
+  height: 40px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  margin: 16px 28px;
+}
